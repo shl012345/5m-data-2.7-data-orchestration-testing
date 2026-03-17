@@ -14,8 +14,10 @@ Please complete the following activities before our session.
 
 **Guiding Questions:**
 
-* How does automated data testing differ from manual data quality checks you might have done in Excel or SQL?  
-* The text mentions dbt\_utils and dbt-expectations. How do these extend the basic capabilities of dbt?
+* How does automated data testing differ from manual data quality checks you might have done in Excel or SQL?
+  Ans: Automated data testing can be repeated consistency multiple times for every data checks automatically while manual data quality checks likely to be random or selective data
+* The text mentions dbt\_utils and dbt-expectations. How do these extend the basic capabilities of dbt?  
+  Ans: dbt\_utils allows test for min/max range and logic expression to check for consistency. dbt-expectations allows test for data type etc
 
 ### 📝 Task 2: Visualizing the Great Expectations Workflow (25 Minutes)
 
@@ -30,8 +32,10 @@ Please complete the following activities before our session.
 
 **Guiding Questions:**
 
-* Look at the code cell using ExpectColumnMaxToBeBetween. If you had to write a rule for a "Customer Email" column, what expectation might you use?  
+* Look at the code cell using ExpectColumnMaxToBeBetween. If you had to write a rule for a "Customer Email" column, what expectation might you use?
+  Ans: Test for regex expression that it contains *@*.*
 * How does a "Validation Definition" connect your data to your rules?
+  Ans: Validation Definition defines the validation scope to test the data for uniqueness, completeness, validity, consistency, timeliness
  
 ### 📝 Task 3 (Optional): Orchestration Conceptual Check
 
