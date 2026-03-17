@@ -33,7 +33,7 @@ Please complete the following activities before our session.
 **Guiding Questions:**
 
 * Look at the code cell using ExpectColumnMaxToBeBetween. If you had to write a rule for a "Customer Email" column, what expectation might you use?  
-  Ans: Test for regex expression that it contains `*@*.*`
+  Ans: Test for email regex: `^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$`
 * How does a "Validation Definition" connect your data to your rules?  
   Ans: Validation Definition defines what data should be validated against which Expectations.
  
