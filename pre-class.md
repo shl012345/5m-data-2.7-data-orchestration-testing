@@ -15,7 +15,7 @@ Please complete the following activities before our session.
 **Guiding Questions:**
 
 * How does automated data testing differ from manual data quality checks you might have done in Excel or SQL?  
-  Ans: Automated data testing can be repeated consistency multiple times for every data checks automatically while manual data quality checks likely to be random or selective data
+  Ans: Automated data testing can be repeated consistently multiple times for every data checks automatically and faster while manual data quality checks likely to be random or selective data
 * The text mentions dbt\_utils and dbt-expectations. How do these extend the basic capabilities of dbt?  
   Ans: dbt\_utils allows test for min/max range and logic expression to check for consistency. dbt-expectations allows test for data type etc
 
