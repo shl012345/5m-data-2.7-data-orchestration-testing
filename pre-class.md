@@ -33,9 +33,9 @@ Please complete the following activities before our session.
 **Guiding Questions:**
 
 * Look at the code cell using ExpectColumnMaxToBeBetween. If you had to write a rule for a "Customer Email" column, what expectation might you use?  
-  Ans: Test for regex expression that it contains '*@*.*'
+  Ans: Test for regex expression that it contains `*@*.*`
 * How does a "Validation Definition" connect your data to your rules?  
-  Ans: Validation Definition defines the validation scope to test the data for uniqueness, completeness, validity, consistency, timeliness
+  Ans: Validation Definition defines what data should be validated against which Expectations.
  
 ### 📝 Task 3 (Optional): Orchestration Conceptual Check
 
